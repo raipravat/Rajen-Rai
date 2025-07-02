@@ -1,575 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rajen Rai | Web Designer</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Slick Slider CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajen Rai - Content Creator</title>
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.jpg" type="image/jpg" />
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar">
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="loader"></div>
-    </div>
-
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Rajen Rai<span></span></a>
-
-        <!-- Theme Toggle - Moved inside navbar -->
-        <div class="theme-toggle">
-          <input type="checkbox" id="theme-switch" class="theme-switch" title="Toggle dark/light theme" aria-label="Toggle dark or light theme" />
-          <label for="theme-switch" class="theme-label">
-            <i class="fas fa-sun"></i>
-            <i class="fas fa-moon"></i>
-          </label>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <!-- Font Awesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Rajen Rai</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#youtube" class="nav-link">YouTube</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+              <!-- In the desktop nav -->
+<div class="theme-toggle"></div>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          title="Toggle navigation"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#blog" class="mobile-nav-link">Blog</a></li>
+            <li><a href="#youtube" class="mobile-nav-link">YouTube</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      <!-- In the mobile menu -->
+<div class="mobile-theme-toggle"></div>
+    </div>
+
     <!-- Hero Section -->
-    <section id="home" class="hero d-flex align-items-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1>Hi, I'm <span>Rajen Rai</span></h1>
-            <h2>Web Designer & Developer</h2>
-            <p class="mb-4">
-              I create beautiful, functional websites that help businesses grow
-              online.
-            </p>
-            <a href="#portfolio" class="btn btn-primary me-3">View My Work</a>
-            <a href="#contact" class="btn btn-outline-primary">Hire Me</a>
-          </div>
-          <div class="col-lg-6">
-            <img
-              src="images/profile.png"
-              alt="Hero Image"
-              class="img-fluid"
-            />
-          </div>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Rajen Rai</h1>
+                <h2>Content Creator | Blogger | YouTuber</h2>
+                <p>Sharing knowledge through engaging content and storytelling</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#youtube" class="btn btn-secondary">Watch Videos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img
+                src="images/Profile.png"
+                alt="Prabhat Rai"
+                class="profile-pic"
+                  loading="lazy"
+                />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h2>About <span>Me</span></h2>
-          <p>Get to know me better</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-5">
-            <img
-              src="images/me.png"
-              alt="About Image"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="col-lg-7">
-            <h3>Web Designer & Developer Based in Nepal</h3>
-            <p>
-              With over 1 years of experience in web design and development,
-              I've helped numerous clients establish their online presence
-              through creative and effective website solutions.
-            </p>
-
-            <div class="skills mt-4">
-              <h4>My Skills</h4>
-              <div class="skill-item">
-                <h6>HTML/CSS <span>70%</span></h6>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 70%"
-                  ></div>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/me.png" alt="Rajen Rai" class="about me" loading="lazy" />
                 </div>
-              </div>
-              <div class="skill-item">
-                <h6>JavaScript <span>30%</span></h6>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 30%"
-                  ></div>
+                <div class="about-text">
+                    <p>Hello! I'm Rajen Rai, a passionate content creator and blogger with a love for sharing knowledge and stories.</p>
+                    <p>My journey began in 2018 when I started writing about my experiences in the tech industry. What started as a hobby quickly turned into a full-fledged passion for creating content that educates and entertains.</p>
+                    <p>Today, I manage a successful blog with thousands of monthly readers and a growing YouTube channel where I share tutorials, reviews, and insights about content creation, technology, and lifestyle.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span>Content Writing</span>
+                            <span>Video Production</span>
+                            <span>SEO</span>
+                            <span>Social Media</span>
+                            <span>Photography</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="skill-item">
-                <h6>Wordpress<span>90%</span></h6>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 90%"
-                  ></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <h6>Bootstrap<span>50%</span></h6>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 50%"
-                  ></div>
-                </div>
-              </div>
             </div>
-
-            <a href="#" class="btn btn-primary mt-4">Download CV</a>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="section-padding bg-light">
-      <div class="container">
-        <div class="section-title">
-          <h2>My <span>Services</span></h2>
-          <p>What I offer to my clients</p>
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Art of Storytelling in Content Creation</h3>
+                        <p class="blog-meta">June 15, 2023 • 8 min read</p>
+                        <p>Discover how to weave compelling narratives into your content to engage your audience on a deeper level.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>SEO Tips for Beginner Bloggers</h3>
+                        <p class="blog-meta">May 28, 2023 • 6 min read</p>
+                        <p>Essential SEO strategies that every new blogger should implement to increase their visibility.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>My Content Creation Workflow</h3>
+                        <p class="blog-meta">April 10, 2023 • 10 min read</p>
+                        <p>A behind-the-scenes look at how I plan, create, and publish my content efficiently.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="#" class="btn btn-primary">View All Posts</a>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-laptop-code"></i>
-              </div>
-              <h3>Web Design</h3>
-              <p>
-                Custom website designs that are visually appealing,
-                user-friendly, and optimized for conversions.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-mobile-alt"></i>
-              </div>
-              <h3>Responsive Design</h3>
-              <p>
-                Websites that look and function perfectly on all devices from
-                desktop to mobile.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-code"></i>
-              </div>
-              <h3>Web Development</h3>
-              <p>
-                Clean, efficient code that brings your design to life with
-                optimal performance.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-paint-brush"></i>
-              </div>
-              <h3>UI/UX Design</h3>
-              <p>
-                User-centered designs that provide intuitive navigation and
-                enjoyable experiences.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-search"></i>
-              </div>
-              <h3>SEO Optimization</h3>
-              <p>
-                Websites optimized for search engines to help you rank higher
-                and get found.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="icon">
-                <i class="fas fa-headset"></i>
-              </div>
-              <h3>Support & Maintenance</h3>
-              <p>
-                Ongoing support to keep your website updated, secure, and
-                running smoothly.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h2>My <span>Portfolio</span></h2>
-          <p>Some of my recent work</p>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <ul class="portfolio-filter">
-              <li class="active" data-filter="*">All</li>
-              <li data-filter=".web-design">Web Design</li>
-              <li data-filter=".web-dev">Wordpress</li>
-              <li data-filter=".ui-ux">UI/UX</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-items">
-          <!-- Portfolio Item 1 -->
-          <div class="col-lg-4 col-md-6 portfolio-item web-design">
-            <div class="portfolio-card">
-              <img
-                src="images/portfolio/1.jpg"
-                class="img-fluid"
-                alt="Landing Page"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-info">
-                  <h4>Landing Page</h4>
-                  <p>Web Design</p>
-                  <a
-                    href="images/portfolio/2.jpg"
-                    class="portfolio-zoom"
-                    data-fancybox="gallery"
-                    title="View larger image"
-                    ><i class="fas fa-search-plus"></i
-                  ></a>
-                  <a href="#" class="portfolio-link" title="View Project Details"
-                    ><i class="fas fa-link" aria-label="View Project Details"></i
-                  >View Project Details</a>
+    <!-- YouTube Section -->
+    <section id="youtube" class="youtube">
+        <div class="container">
+            <h2 class="section-title">YouTube Videos</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <div class="image-placeholder"></div>
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>How to Start a Successful Blog in 2023</h3>
+                        <p class="video-meta">15K views • 2 weeks ago</p>
+                    </div>
                 </div>
-              </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <div class="image-placeholder"></div>
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Content Creation Tools I Use Daily</h3>
+                        <p class="video-meta">28K views • 1 month ago</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <div class="image-placeholder"></div>
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Behind the Scenes: Making a YouTube Video</h3>
+                        <p class="video-meta">42K views • 2 months ago</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- Portfolio Item 2 -->
-          <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-            <div class="portfolio-card">
-              <img
-                src="images/portfolio/3.jpg"
-                class="img-fluid"
-                alt="Wordpress Development"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-info">
-                  <h4>Wordpress Development</h4>
-                  <p>Wordpress</p>
-                  <a
-                    href="images/portfolio/4.jpg"
-                    class="portfolio-zoom"
-                    data-fancybox="gallery"
-                    ><i class="fas fa-search-plus"></i
-                  ></a>
-                  <a href="#" class="portfolio-link" title="View Project"
-                    ><i class="fas fa-link"></i
-                  ></a>
-                </div>
-              </div>
+            <div class="channel-cta">
+                <p>Want to see more videos?</p>
+                <a href="#" class="btn btn-secondary">Visit My Channel</a>
             </div>
-          </div>
-          <!-- Portfolio Item 3 -->
-          <div class="col-lg-4 col-md-6 portfolio-item ui-ux">
-            <div class="portfolio-card">
-              <img
-                src="images/portfolio/5.jpg"
-                class="img-fluid"
-                alt="Dashboard Design"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-info">
-                  <h4>Dashboard Design</h4>
-                  <p>UI/UX</p>
-                  <a
-                    href="images/portfolio/6.jpg"
-                    class="portfolio-zoom"
-                    data-fancybox="gallery"
-                    ><i class="fas fa-search-plus"></i
-                  ></a>
-                  <a href="#" class="portfolio-link" title="View Project"
-                    ><i class="fas fa-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="section-padding bg-light">
-      <div class="container">
-        <div class="section-title">
-          <h2>Client <span>Testimonials</span></h2>
-          <p>What my clients say about my work</p>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="testimonials-slider">
-              <!-- Testimonial 1 -->
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <div class="testimonial-text">
-                    <p>
-                      "Working with Rajen was an absolute pleasure. They
-                      delivered a website that exceeded our expectations and
-                      helped increase our online conversions by 40%."
-                    </p>
-                  </div>
-                  <div class="testimonial-author">
-                    <img
-                      src="https://randomuser.me/api/portraits/men/32.jpg"
-                      alt="John Smith"
-                    />
-                    <h5>John Smith</h5>
-                    <span>CEO, ABC Company</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial 2 -->
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <div class="testimonial-text">
-                    <p>
-                      "The attention to detail and creative approach Rajen
-                      brought to our project resulted in a website that
-                      perfectly represents our brand. Highly recommended!"
-                    </p>
-                  </div>
-                  <div class="testimonial-author">
-                    <img
-                      src="https://randomuser.me/api/portraits/women/44.jpg"
-                      alt="Sarah Johnson"
-                    />
-                    <h5>Sarah Johnson</h5>
-                    <span>Marketing Director, XYZ Corp</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial 3 -->
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <div class="testimonial-text">
-                    <p>
-                      "From concept to completion, Rajen was professional,
-                      communicative, and delivered on time. Our new website has
-                      received countless compliments."
-                    </p>
-                  </div>
-                  <div class="testimonial-author">
-                    <img
-                      src="https://randomuser.me/api/portraits/men/75.jpg"
-                      alt="Michael Brown"
-                    />
-                    <h5>Michael Brown</h5>
-                    <span>Founder, Startup Inc</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h2>Get In <span>Touch</span></h2>
-          <p>Let's discuss your project</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="contact-info">
-              <h3>Contact Information</h3>
-              <p>
-                Feel free to reach out to me for any questions or to discuss
-                potential projects.
-              </p>
-              <ul>
-                <li>
-                  <i class="fas fa-map-marker-alt"></i>
-                  <span>Kathmandu, Nepal</span>
-                </li>
-                <li>
-                  <i class="fas fa-envelope"></i>
-                  <span>rajenrae@gmail.com</span>
-                </li>
-                <li>
-                  <a href="https://wa.me/9779812369140" target="_blank" rel="noopener" class="whatsapp-link">
-                  <i class="fab fa-whatsapp"></i>
-                  <span>+977  9812369140</span>
-                  </a>
-                </li>
-              </ul>
-              <div class="social-links">
-                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
-                <a href="https://wa.me/9779812369140" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-              </div>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@rajenrai.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Medium"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
-          </div>
-          <div class="col-lg-7">
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Subject"
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea
-                      class="form-control"
-                      rows="5"
-                      placeholder="Your Message"
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">
-                    Send Message
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <a href="#" class="footer-logo">Rajen<span> Rai</span></a>
-            <p class="copyright">
-              © 2024 - <span id="year"></span> www.rajen.info.np, All Rights
-              Reserved.
-            </p>
-          </div>
+        <div class="container">
+            <p>&copy; 2023 Rajen Rai. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
         </div>
-      </div>
     </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top" id="backToTop" title="Back to Top" aria-label="Back to Top">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Isotope (for portfolio filtering) -->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <!-- Slick Slider (for testimonials) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <!-- Fancybox (for portfolio lightbox) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/script.js"></script>
-  </body>
-</html>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
