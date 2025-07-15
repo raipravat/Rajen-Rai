@@ -13,7 +13,7 @@
   --bg-light: #f8f9fa;
   --card-bg: #f8f9fa;
   --card-dark: #e9ecef;
-  --nav-bg: rgba(255, 255, 255, 0.95);
+  --nav-bg: rgba(226, 234, 238, 0.95);
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
@@ -229,7 +229,7 @@ img {
   position: relative;
   width: 40px;
   height: 40px;
-  margin-left: 20px;
+  margin-left: 40px;
   border-radius: 50%;
   background-color: var(--card-bg);
   cursor: pointer;
@@ -343,7 +343,7 @@ img {
 /* Hero Section */
 .hero {
   padding: 0 0 50px;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -1220,55 +1220,10 @@ img {
   display: none;
 }
 
-/* Newsletter Section */
-.newsletter {
-  padding: 80px 0;
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-}
-
-.newsletter h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.newsletter p {
-  max-width: 600px;
-  margin: 0 auto 30px;
-  opacity: 0.9;
-}
-
-.newsletter-form {
-  display: flex;
-  max-width: 500px;
-  margin: 0 auto;
-  gap: 10px;
-}
-
-.newsletter-form input {
-  flex: 1;
-  padding: 12px 15px;
-  border: none;
-  border-radius: var(--border-radius);
-  font-family: "Poppins", sans-serif;
-}
-
-.newsletter-form input:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
-}
-
-.privacy-note {
-  font-size: 0.8rem;
-  opacity: 0.7;
-  margin-top: 15px;
-}
-
 /* Footer */
 .footer {
   padding: 80px 0 30px;
-  background-color: var(--card-bg);
+  background-color: var(--nav-bg);
 }
 
 .footer-grid {
